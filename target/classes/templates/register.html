@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>注册页面</title>
+    <link href="static/base/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container" style="margin-top: 15%;width: 55%;">
+    <form>
+        <div class="form-signin">
+            <!--<h2 class="form-signin-heading">注册</h2>-->
+            <!-- class="sr-only"将label标签隐藏 -->
+            <label for="username" class="sr-only">用户名</label>
+            <input type="text" class="form-control" id="username" placeholder="用户名">
+
+            <label for="password" class="sr-only">密码</label>
+            <input type="password" class="form-control" id="password" placeholder="密码">
+
+            <label for="name" class="sr-only">姓名</label>
+            <input type="text" class="form-control" id="name" placeholder="姓名">
+
+            <label for="email" class="sr-only">邮箱</label>
+            <input type="email" class="form-control" id="email" placeholder="@qq.com">
+
+            <label for="phone" class="sr-only">手机</label>
+            <input type="tel" class="form-control" id="phone" placeholder="手机">
+            <div class="checkbox">
+                <label>
+                    <!--<input type="checkbox">
+                    记住密码-->
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" id="submit">注册</button>
+            <button class="btn btn-lg btn-primary btn-block" id="login">登录</button>
+        </div>
+    </form>
+</div>
+<script type='text/javascript' src="static/base/jquery.min.js" charset='utf-8'></script>
+<script type='text/javascript' src="static/base/js/bootstrap.min.js" charset='utf-8'></script>
+<script type='text/javascript' src="static/register.js" charset='utf-8'></script>
+</body>
+</html>
